@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Steel Mills in the Monogahela Valley in Allegheny County, PA</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+   <h3> Steel Mills in the Mon Valley in Allegheny County</h3>
+ 
+<h3>Rationale</h3><
+
+<ol><h3>
+
+<li>I grew up in Glassport, a small town south of Pittsburgh. Glassport is in the region known as the Mon Valley, the valley where the Monongahela River (Mon River) flows. The Mon River flows north from West Virginia through southwestern Pennsylvania, to Pittsburgh where it merges with the Allegheny River to form the Ohio River.</li>
+    
+    <li>During the Industrial Revolution, steel mills were built all along the Mon River. This is partially because of geography. West Virginia and Western Pennsylvania have significant deposits of coal. Coal was shipped in barges on the Mon River, where it was offloaded for use in the mills. You can still see this at the Clairton Coke Works, which is one of the few mills still open.</li>
+
+    <li>As you can see in the map below, mills were all along the river. In fact, I grew up in a house less than six blocks away from the Bucyrus-Erie plant.</li>
+
+    <li>Life in these towns along the Mon River revolved around the mills. Many boys would either drop out of high school or graduate then get a job in one of the mills.</li>
+    
+    <li>In the late 70’s and early 80’s, the industry collapsed. Most of these mills shut down. Unemployment skyrocketed in the region, and many families had to leave the area.  </li>
+    
+   <li>When I’ve tried to explain how important the steel industry was in the Pittsburgh area, many people don’t understand how intertwined the mills were with life in the region. This map is a way of trying to explain this.
+    </li>
+</h3></ol>
+
+<h3>Limitations</h3>
+<ol><h3>
+<li>These were not the only steel mills in the Pittsburgh area. There were mills further south along the Mon River and also along the Allegheny River north of the city. However, I wanted to focus on this region because of the concentration of mills here. </li>
+
+<li>I’ve tried to include a photo of each mill. I haven’t been able to find photos for all of them.</li>
+
+<li>Finding geographical coordinates for buildings that no longer exist, and, in some cases, haven’t existed for decades was a challenge.</li>
+
+</h3></ol>
+
+<div class="container">
+     
+    <h2>Map of the Mon Valley in Allegheny County</h2>
+    <div id="map"></div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="map2.js"></script>
+
+
+
+    
+  
+    <ol><h3>
+        <li><p id = "fisher"></p>General Motors Pittsburgh or Pittsburgh Metal
+    
+            <p>This plant was located in Dravosburg, Pennsylvania and was known locally as "Fisher Body".</p>
+        </li>
+    
+        <li><p id = "clairton"></p>Clairton Coke Works
+    
+            <p>This plant is located in Clairton, and is still open, and part of US Steel's Mon Valley Works. It takes coal, and processes it, turning it into coke, which burns hotter,</p>
+        
+            <a title="Roy Luck, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:US_Steel_Clairton_Works,_Clairton_PA_(8900609816).jpg"><img width="512" alt="US Steel Clairton Works, Clairton PA (8900609816)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/US_Steel_Clairton_Works%2C_Clairton_PA_%288900609816%29.jpg/512px-US_Steel_Clairton_Works%2C_Clairton_PA_%288900609816%29.jpg"></a>
+    
+        </li>
+    
+        <li><p id = "copper"></p>Copperweld
+    
+            <p>This plant, which was known as Copperweld Steel at one point, was located in Glassport.</p>
+        </li>
+    
+        <li><p id = "bucyrus"></p>Bucyrus-Erie
+    
+            <p>This plant was also located in Glassport.</p>
+        </li>
+    
+        <li><p id = "tube"></p>National Tube Works
+    
+            <p>The Tube Works was a US Steel plant, located in McKeesport. As the name implies, it specialized in making tubes.</p>
+        
+            <a title="See page for author, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:National_Tube_Works,_Furnaces_(NBY_4662).jpg"><img width="512" alt="National Tube Works, Furnaces (NBY 4662)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/National_Tube_Works%2C_Furnaces_%28NBY_4662%29.jpg/512px-National_Tube_Works%2C_Furnaces_%28NBY_4662%29.jpg"></a>
+        
+        </li>
+    
+        <li><p id = "irvin"></p>Irvin Works
+    
+            <p>The Irvin Works is located in West Mifflin. It is still open, and part of the Mon Valley Works. </p>
+       
+            <a title="U.S. Government, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:President_Obama_Irvin_Plant_MyRA.png"><img width="512" alt="President Obama Irvin Plant MyRA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/President_Obama_Irvin_Plant_MyRA.png/512px-President_Obama_Irvin_Plant_MyRA.png"></a>
+       
+        </li>
+    
+    
+        <li><p id = "duquense"></p>Duquense Works
+    
+            <p>This plant was located in Duquesne.</p>
+    
+            <a title="Stupich, Martin, creator, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GENERAL_SOUTHEASTERN_VIEW_OF_CENTRAL_BOILER_HOUSE._-_U.S._Steel_Duquesne_Works,_Fuel_and_Utilities_Plant,_Along_Monongahela_River,_Duquesne,_Allegheny_County,_PA_HAER_PA,2-DUQU,3E-23.tif"><img width="256" alt="GENERAL SOUTHEASTERN VIEW OF CENTRAL BOILER HOUSE. - U.S. Steel Duquesne Works, Fuel and Utilities Plant, Along Monongahela River, Duquesne, Allegheny County, PA HAER PA,2-DUQU,3E-23" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/GENERAL_SOUTHEASTERN_VIEW_OF_CENTRAL_BOILER_HOUSE._-_U.S._Steel_Duquesne_Works%2C_Fuel_and_Utilities_Plant%2C_Along_Monongahela_River%2C_Duquesne%2C_Allegheny_County%2C_PA_HAER_PA%2C2-DUQU%2C3E-23.tif/lossy-page1-487px-thumbnail.tif.jpg"></a>
+    
+        </li>
+    
+        <li><p id = "edgar"></p>Edgar Thompson Steel Works
+    
+            <p>This plant is located in Braddock. It is still open, and part of the Mon Valley Works.</p>
+        
+            <a title="taken by David Rochberg, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Edgar_Thomson.jpg"><img width="512" alt="Edgar Thomson" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Edgar_Thomson.jpg/512px-Edgar_Thomson.jpg"></a>
+        
+        </li>
+    
+        <li><p id = "homestead"></p>Homestead Works
+    
+            <p>This plant was a US Steel plant in Homestead. </p>
+    
+            <a title="Library of Congress
+    , Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Homestead_Steel_Works,_Homestead,_Pa._(det.4a55014).tif"><img width="512" alt="Homestead Steel Works, Homestead, Pa. (det.4a55014)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Homestead_Steel_Works%2C_Homestead%2C_Pa._%28det.4a55014%29.tif/lossy-page1-746px-Homestead_Steel_Works%2C_Homestead%2C_Pa._%28det.4a55014%29.tif.jpg"></a>
+    
+        </li>
+    
+        <li><p id = "south"></p>South Side Works
+    
+            <p>South Side Works was a J&L Steel plant in the South Side neighborhood of Pittsburgh.</p>
+    
+            <a title="Lowe, Jet, creator, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:NORTH_ELEVATION_OF_-2_OPEN_HEARTH._FOREGROUND-_SLAG_DOCK,_LOOKING_SW._-_Jones_and_Laughlin_Steel_Corporation,_Pittsburgh_Works,_Morgan_Billet_Mill_Engine,_550_feet_north_of_East_HAER_PA,2-PITBU,62A-10.tif"><img width="512" alt="NORTH ELEVATION OF -2 OPEN HEARTH. FOREGROUND- SLAG DOCK, LOOKING SW. - Jones and Laughlin Steel Corporation, Pittsburgh Works, Morgan Billet Mill Engine, 550 feet north of East HAER PA,2-PITBU,62A-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/NORTH_ELEVATION_OF_-2_OPEN_HEARTH._FOREGROUND-_SLAG_DOCK%2C_LOOKING_SW._-_Jones_and_Laughlin_Steel_Corporation%2C_Pittsburgh_Works%2C_Morgan_Billet_Mill_Engine%2C_550_feet_north_of_East_HAER_PA%2C2-PITBU%2C62A-10.tif/lossy-page1-800px-thumbnail.tif.jpg"></a>
+    
+        </li>
+    
+        <li><p id = "hazel"></p>J&L Plant
+    
+            <p>This plant was located in the Hazelwood neighborhood of Pittsburgh. Yes, South Side Works was also a J&L plant, but this one was called the J&L Plant. If it had a different name, I have not been able to find it.</p>
+        
+            <a title="National Archives at College Park
+            , Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:POLLUTANTS_COMING_FROM_A_COKE_PLANT_OWNED_BY_THE_JONES_AND_LAUGHLIN_STEEL_CORPORATION_AT_HAZELWOOD,_PENNSYLVANIA,_A..._-_NARA_-_557225.jpg"><img width="512" alt="POLLUTANTS COMING FROM A COKE PLANT OWNED BY THE JONES AND LAUGHLIN STEEL CORPORATION AT HAZELWOOD, PENNSYLVANIA, A... - NARA - 557225" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/POLLUTANTS_COMING_FROM_A_COKE_PLANT_OWNED_BY_THE_JONES_AND_LAUGHLIN_STEEL_CORPORATION_AT_HAZELWOOD%2C_PENNSYLVANIA%2C_A..._-_NARA_-_557225.jpg/512px-POLLUTANTS_COMING_FROM_A_COKE_PLANT_OWNED_BY_THE_JONES_AND_LAUGHLIN_STEEL_CORPORATION_AT_HAZELWOOD%2C_PENNSYLVANIA%2C_A..._-_NARA_-_557225.jpg"></a>
+        
+        </li>
+    
+    </h3>
+    </ol>
+    
+    
+
+
+</body>
+</html>
