@@ -9,6 +9,10 @@
     <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
     integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
     crossorigin=""></script>
+
+
+    <script src="Allegheny_County_Municipal_Boundaries.js"></script>
+
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -27,6 +31,8 @@
 
     <li>Life in these towns along the Mon River revolved around the mills. Many boys would either drop out of high school or graduate then get a job in one of the mills.</li>
     
+    <li>Generations of families worked in the mills. If you take my family as an example, both my great-grandfather and grandfather worked at Copperweld and I had uncles who worked at National Tube and Bucyrus-Erie.</li>
+
     <li>In the late 70’s and early 80’s, the industry collapsed. Most of these mills shut down. Unemployment skyrocketed in the region, and many families had to leave the area.  </li>
     
    <li>When I’ve tried to explain how important the steel industry was in the Pittsburgh area, many people don’t understand how intertwined the mills were with life in the region. This map is a way of trying to explain this.
@@ -58,7 +64,12 @@
     <ol><h3>
         <li><p id = "fisher"></p>General Motors Pittsburgh or Pittsburgh Metal
     
-            <p>This plant was located in Dravosburg, Pennsylvania and was known locally as "Fisher Body".</p>
+            <p>This plant was located in Dravosburg, Pennsylvania and was known locally as "Fisher Body". It specialized in making body parts for General Motors cars.</p>
+
+            <p>This plant openeed in 1948 and closed in 2006. It has since been torn down.</p>
+
+            <p>Peak Employment: 3,500 people.</p>
+
         </li>
     
         <li><p id = "clairton"></p>Clairton Coke Works
@@ -72,17 +83,32 @@
         <li><p id = "copper"></p>Copperweld
     
             <p>This plant, which was known as Copperweld Steel at one point, was located in Glassport.</p>
+
+            <p>It produced, among other things, copper wiring, copper conductors, and reinforcement for embankments and walls in flood control. In 1976, it was bought by a French company, Societe Imetal. </p>
+            
+            <p>Copperwled opened in Glassport in 1927 and closed in 1983. Its office building has sicne been torn down and a pharmacy is now on that property. The factory space is now a small business incubator.</p>    
+
+            <p>Peak Employment: 800 people</p>
+        
         </li>
     
         <li><p id = "bucyrus"></p>Bucyrus-Erie
     
-            <p>This plant was also located in Glassport.</p>
+            <p>This plant was also located in Glassport. It was originally the Pittsburgh Steel Foundry, or just the Foundry. This mill produded casting of various sizes. It also changed hands a few times. In 1974, the mill was bought by Bucyrus=Erie. At this point, the plant continued to produce casting, but those casting were now primarily for the fossil feul industries, as the United States was teying to increase production of those after the <a href="https://en.wikipedia.org/wiki/1973_oil_crisis">The Oil Embargo of 1973-4.</a></p>
+       
+            <p>This plan began operations as the Pittsburgh Steel Foundry in 1899. After a merger, it changed its name to Pittron in 1927. It was bought by Bucyrus-Erie in 1974. It closed in 1981. It has since been torn down.</p>
+       
+            <p>Peak Employment: 1,000 people</p>
         </li>
     
         <li><p id = "tube"></p>National Tube Works
     
-            <p>The Tube Works was a US Steel plant, located in McKeesport. As the name implies, it specialized in making tubes.</p>
+            <p>The Tube Works was a US Steel plant, located in McKeesport. As the name implies, it specialized in making tubes. It was also called Tube City.</p>
         
+            <p>Tube City opened in 1902 and closed in 1984. Part of this space is a small business incubator now.</p>
+
+            <p>Peak Employment: 7,000 people.</p>
+
             <a title="See page for author, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:National_Tube_Works,_Furnaces_(NBY_4662).jpg"><img width="512" alt="National Tube Works, Furnaces (NBY 4662)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/National_Tube_Works%2C_Furnaces_%28NBY_4662%29.jpg/512px-National_Tube_Works%2C_Furnaces_%28NBY_4662%29.jpg"></a>
         
         </li>
@@ -96,9 +122,14 @@
         </li>
     
     
-        <li><p id = "duquense"></p>Duquense Works
+        <li><p id = "duquense"></p>Duquesne Works
     
-            <p>This plant was located in Duquesne.</p>
+            <p>This plant was located in Duquesne. Originally, it specialized in building rails, primarily for railroads, but later became a pipe mill. Dorothy 6, the world's largest blast furnace was located here.</p>
+            <p>The mill is now a small business incubator.</p>
+
+            <p>This plant opened in 1889, and closed in 1984.</p>
+
+            <p>Peak Employment: 8,000</p>
     
             <a title="Stupich, Martin, creator, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GENERAL_SOUTHEASTERN_VIEW_OF_CENTRAL_BOILER_HOUSE._-_U.S._Steel_Duquesne_Works,_Fuel_and_Utilities_Plant,_Along_Monongahela_River,_Duquesne,_Allegheny_County,_PA_HAER_PA,2-DUQU,3E-23.tif"><img width="256" alt="GENERAL SOUTHEASTERN VIEW OF CENTRAL BOILER HOUSE. - U.S. Steel Duquesne Works, Fuel and Utilities Plant, Along Monongahela River, Duquesne, Allegheny County, PA HAER PA,2-DUQU,3E-23" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/GENERAL_SOUTHEASTERN_VIEW_OF_CENTRAL_BOILER_HOUSE._-_U.S._Steel_Duquesne_Works%2C_Fuel_and_Utilities_Plant%2C_Along_Monongahela_River%2C_Duquesne%2C_Allegheny_County%2C_PA_HAER_PA%2C2-DUQU%2C3E-23.tif/lossy-page1-487px-thumbnail.tif.jpg"></a>
     
@@ -115,6 +146,12 @@
         <li><p id = "homestead"></p>Homestead Works
     
             <p>This plant was a US Steel plant in Homestead. </p>
+
+            <p>The plant was mostly torn down, and <A href="https://en.wikipedia.org/wiki/The_Waterfront">The Waterfront</A>, a large outdoor shopping and entertiainment venur, opened in 1999.</p>
+
+            <p>This plant opened in 1882 and closed in 1986.</p>
+
+            <p>Peak employment: 15,000</p>
     
             <a title="Library of Congress
     , Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Homestead_Steel_Works,_Homestead,_Pa._(det.4a55014).tif"><img width="512" alt="Homestead Steel Works, Homestead, Pa. (det.4a55014)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Homestead_Steel_Works%2C_Homestead%2C_Pa._%28det.4a55014%29.tif/lossy-page1-746px-Homestead_Steel_Works%2C_Homestead%2C_Pa._%28det.4a55014%29.tif.jpg"></a>
@@ -124,6 +161,12 @@
         <li><p id = "south"></p>South Side Works
     
             <p>South Side Works was a J&L Steel plant in the South Side neighborhood of Pittsburgh.</p>
+
+            <p>This area has been converted into a sports medicine complex, entertainment, and office buildings.</p>
+
+            <p>This plant opened in 1893 and closed in 1986.</p>
+
+            <p>Peak employment -- this is combined with the Hazelwood Works across the Mon River -- 12,000</p>
     
             <a title="Lowe, Jet, creator, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:NORTH_ELEVATION_OF_-2_OPEN_HEARTH._FOREGROUND-_SLAG_DOCK,_LOOKING_SW._-_Jones_and_Laughlin_Steel_Corporation,_Pittsburgh_Works,_Morgan_Billet_Mill_Engine,_550_feet_north_of_East_HAER_PA,2-PITBU,62A-10.tif"><img width="512" alt="NORTH ELEVATION OF -2 OPEN HEARTH. FOREGROUND- SLAG DOCK, LOOKING SW. - Jones and Laughlin Steel Corporation, Pittsburgh Works, Morgan Billet Mill Engine, 550 feet north of East HAER PA,2-PITBU,62A-10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/NORTH_ELEVATION_OF_-2_OPEN_HEARTH._FOREGROUND-_SLAG_DOCK%2C_LOOKING_SW._-_Jones_and_Laughlin_Steel_Corporation%2C_Pittsburgh_Works%2C_Morgan_Billet_Mill_Engine%2C_550_feet_north_of_East_HAER_PA%2C2-PITBU%2C62A-10.tif/lossy-page1-800px-thumbnail.tif.jpg"></a>
     
@@ -133,15 +176,44 @@
     
             <p>This plant was located in the Hazelwood neighborhood of Pittsburgh. Yes, South Side Works was also a J&L plant, but this one was called the J&L Plant. If it had a different name, I have not been able to find it.</p>
         
+            <p>This area is now called Hazelwood Green, and plans are being made for its redevelopment.</p>
+            
+            <p>This plant opened in 1893 and closed in 1997.</p>
+
+            <p>Peak employment -- this is combined with the South Side Works across the Mon River -- 12,000</p>
+
             <a title="National Archives at College Park
-            , Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:POLLUTANTS_COMING_FROM_A_COKE_PLANT_OWNED_BY_THE_JONES_AND_LAUGHLIN_STEEL_CORPORATION_AT_HAZELWOOD,_PENNSYLVANIA,_A..._-_NARA_-_557225.jpg"><img width="512" alt="POLLUTANTS COMING FROM A COKE PLANT OWNED BY THE JONES AND LAUGHLIN STEEL CORPORATION AT HAZELWOOD, PENNSYLVANIA, A... - NARA - 557225" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/POLLUTANTS_COMING_FROM_A_COKE_PLANT_OWNED_BY_THE_JONES_AND_LAUGHLIN_STEEL_CORPORATION_AT_HAZELWOOD%2C_PENNSYLVANIA%2C_A..._-_NARA_-_557225.jpg/512px-POLLUTANTS_COMING_FROM_A_COKE_PLANT_OWNED_BY_THE_JONES_AND_LAUGHLIN_STEEL_CORPORATION_AT_HAZELWOOD%2C_PENNSYLVANIA%2C_A..._-_NARA_-_557225.jpg"></a>
+            , Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:POLLUTANTS_COMING_FROM_A_COKE_PLANT_OWNED_BY_THE_JONES_AND_LAUGHLIN_STEEL_CORPORATION_AT_HAZELWOOD,_PENNSYLVANIA,_A..._-_NARA_-_557225.jpg"><img width="512" alt="POLLUTANTS COMING FROM A COKE PLANT OWNED BY THE JONES AND LAUGHLIN STEEL CORPORATION AT HAZELWOOD, PENNSYLVANIA, A... - NARA - 557225" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/POLLUTANTS_COMING_FROM_A_COKE_PLANT_OWNED_BY_THE_JONES_AND_LAUGHLIN_STEEL_CORPORATION_AT_HAZELWOOD%2C_PENNSYLVANIA%2C_A..._-_NARA_-_557225.jpg/512px-POLLUTANTS_COMING_FROM_A_COKE_PLANT_OWNED_BY_THE_JONES_AND_LAUGHLIN_STEEL_CORPORATION_AT_HAZELWOOD%2C_PENNSYLVANIA%2C_A..._-_NARA_-_557225.jpg">
         
         </li>
     
     </h3>
     </ol>
     
-    
+    <h4>Sources</h4>
+
+    <ol>
+<h4>
+    <li><a href="https://www.mckeesportheritage.org/">The McKeesport Heritage Center</a></li>
+
+    <li><a href="https://historicpittsburgh.org/">Historic Pittsburgh</a></li>
+
+    <li><a href="https://riversofsteel.com/">Rivers of Steel</a>, part of the Steel Industry Heritage Corporation</li>
+
+    <li><a href="https://monvalley.uss.com/"">US Steel's Mon Valley Works Page</a></li>
+
+    <li><a href="http://beoldtimers.org/history/history%20of.pdf"></a>A Brief History of Bucyrus-Erie</li>
+
+    <li><a href="https://explorepahistory.com/">Explore PA History's website.</a></li>
+
+    <li><a href="https://www.hazelwoodgreen.com/">HAzelwood Green's website.</a></li>
+
+    <li>William Serrin's <b>The Glory and Tragedy of an American Steel Town</b>, Times Books, 1992</li>
+
+    <li>Stephen R. Lease  <b> McKeesport and Glassport: Changes Through the Years, an Ethnographic Research Project for the Steel Industry Heritage Corporation</b></li>
+</h4>
+
+    </ol>
 
 
 </body>
