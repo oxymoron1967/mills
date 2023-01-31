@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(pghMap);
 
-pghMap.setView([40.4274, -79.9652], 11);
+pghMap.setView([40.4274, -79.9652], 10);
 
 L.geoJSON(pitt).addTo(pghMap);
 
