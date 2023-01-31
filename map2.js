@@ -17,7 +17,7 @@ const homesteadWorks = L.marker([40.4111, -79.8972]).addTo(pghMap);
 homesteadWorks.bindPopup("<b><a href=#homestead>US Steel Homestead Works</a></b>");
 
 const thompsonWorks = L.marker([40.3970, -79.8639]).addTo(pghMap);
-thompsonWorks.bindPopup("<b><a href=#edgar>IS Steel Edgar Thompson Steel Works in Braddock</a></b>");
+thompsonWorks.bindPopup("<b><a href=#edgar>IS Steel Edgar Thomson Steel Works in Braddock</a></b>");
 
 const IrvinWorks = L.marker([40.3349, -79.9004]).addTo(pghMap);
 IrvinWorks.bindPopup("<b><a href=#irvin>US Steel Irvin Works in West Mifflin</a></b>");
