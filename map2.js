@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 pghMap.setView([40.4274, -79.9652], 11);
 
-
+L.geoJSON(pitt).addTo(pghMap);
 
 const tubeWorks = L.marker([40.3521, -79.8607]).addTo(pghMap);
 tubeWorks.bindPopup("<b><a href=#tube> US Steel National Tube Works in McKeesport</a><</b>");
