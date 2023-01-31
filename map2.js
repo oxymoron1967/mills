@@ -45,6 +45,15 @@ const bucyrusWorks = L.marker([40.3303, -79.8945]).addTo(pghMap);
 bucyrusWorks.bindPopup("<b><a href=#bucyrus>Bucyrus Erie in Glassport</a></b>");
 
 
+L.geoJSON(pitt, {
+    style: function(feature) {
+        return {
+            color: "black",
+            fillColor: "gray",
+            fillOpacity: 0.5
+        };
+    }
+}).addTo(pghMap);
 
 
 
