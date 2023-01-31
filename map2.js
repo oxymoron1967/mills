@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(pghMap);
 
-pghMap.setView([40.3349, -79.9004], 10);
+pghMap.setView([40.4274, -79.9652], 11);
 
 L.geoJSON(pitt).addTo(pghMap);
 
@@ -45,15 +45,6 @@ const bucyrusWorks = L.marker([40.3303, -79.8945]).addTo(pghMap);
 bucyrusWorks.bindPopup("<b><a href=#bucyrus>Bucyrus Erie in Glassport</a></b>");
 
 
-L.geoJSON(pitt, {
-    style: function(feature) {
-        return {
-            color: "black",
-            fillColor: "gray",
-            fillOpacity: 0.5
-        };
-    }
-}).addTo(pghMap);
 
 
 
